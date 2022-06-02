@@ -1,0 +1,380 @@
+
+body{
+    background:#EAC926;
+    text-align: center;
+    }
+    footer{
+        font-family: 'Roboto';
+    }
+    * a{
+        text-decoration: none;
+    }
+    .link-html{
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        background-color: #EAC926;
+        margin:auto
+    }
+    main{
+        background-color: #EAC926;
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+    .iconos-footer{
+        text-align: center;
+        font-size: 40px;
+        color: #1259C3;
+    }
+    .descripciones-footer{
+        font-size: 18px;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-weight: 1000;
+        text-align: center;
+    }
+    .footer-details{
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0;
+    }
+    .logo{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .cabecera{
+        justify-content: space-between;
+    }
+    .busqueda{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .buscador input{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .boton-busqueda{
+        align-items: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        width: 30px;
+    }
+    .detalle-pagina{
+        font-size: 16px;
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: 250px;
+        text-align: center;
+    }
+    .menu-der,.menu-izq{
+        font-size: 12px;
+        list-style: none;
+        padding-left: 0;
+    }
+    .links{
+        text-decoration: none;
+        color: black;
+    }
+    .burger-menu{
+        display: block;
+        justify-content: center;
+        width: 30px;
+        padding: 2%;
+        border-radius: 10px;
+        background-color: #1259C3;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        margin:auto;
+        box-sizing: content-box;
+    }
+    .burger-menu:active{
+        background: #39B54A;
+    }
+    .banner{
+        height: 100%;
+        width: 100%;
+    }
+    .titulares{
+        font-size: 24px;
+        color: #666666;
+        font-weight: bolder;
+        margin-left: 15px
+    }
+    .items-venta{
+        background-color: white;
+        padding: 20px;
+        margin: 15px;
+        border: solid 1px #EBEBEB;
+    }
+    main section article img{
+        display: flex;
+        width: 100%;
+        position: relative;
+    }
+    main i{
+        color: #39B54A;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .contenedor{
+        position: relative
+    }
+    main section article div i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39B54A;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        }
+    main section article div {
+        display:flex;
+        flex-direction: row;
+    }
+    .precio{
+        font-size: 18px;
+        width: 30%;
+    }
+    .precio p{
+        width: 100%;
+    }
+    .descuentos,
+    .descripciones{
+        font-size: 16px;
+    }
+    .descuentos{
+        color:#39b54a;
+        width: 70%;
+    }
+    .create-form{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width:80% ;
+        padding: 2%;
+        border: solid 1px black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .form-pass input{
+        width: 70%;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .form-checkbox{
+        display:flex;
+        flex-direction: column;
+    }
+    .form-checkbox label{
+        padding: 3px;
+    }
+    .control-formulario{
+        margin-bottom:10px;
+        font-style: roboto;
+        display:block;
+    }
+    .control{
+        width: 90%;
+        padding: 8px;
+    }
+    .buttom-form{
+        background-color: #39B54A;
+        border: none;
+        font-size: 20px;
+        color:#ffffff;
+        padding:5px;
+        border-radius: 15%;
+    }
+    h3{
+        margin-top: 0;
+    }
+    main form button{
+        display: flex;
+    }
+    .login{
+        width: 70%;
+        margin: auto
+    }
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin:auto;
+        padding: 30px;
+    }
+    .form-login input{
+        margin: 5px 5px;
+        border-radius: 15px;
+        border:none;
+        padding: 3px 5px;
+    }
+    legend{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: large;
+    }
+  
+    .boton-ingresar,.boton-ingresar a {
+        width:100px;
+        margin-left:auto;
+        margin-right:auto;
+        border: none;
+        border-radius: 10px;
+        background-color: #1259C3;
+        color: white;
+        padding: 5px;
+        justify-content: center;
+    }
+    @media (min-width: 361px ){
+        .menu-der,
+        .menu-izq{
+            display:none;
+        }
+        .detalle-pagina{
+            margin:auto
+        }
+        .navbar{
+            display: flex;
+            margin:auto;
+            flex-wrap: wrap;
+        }
+        .logo{
+            width: 50%;
+        }
+        .buscador{
+            display: flex;
+            flex-direction:row;
+            width: 40%;
+        }
+        .busqueda input{
+            width:100%;
+            margin-left:0
+        }
+        .boton-busqueda{
+            margin-left: 0
+        }
+        .items-venta{
+            
+            max-width: 70%;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .descripciones{
+            display: none;
+        }
+        .form-button button{
+            width:100px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top: 25px;
+            border-radius: 10px;
+            background-color: #1259C3;
+            color: white;
+            padding: 5px;
+            justify-content: center;
+        }
+        .form-button {
+            display: flex;
+        }
+    }
+    @media( min-width: 769px){
+        .burger-menu{
+            display:none;
+        }
+        .menu-der,
+        .menu-izq{
+            display: inline;
+        }
+        .logo{
+            width: 30%;
+        }
+        .buscador{
+            width: 30%;
+        }
+        .detalle-pagina{
+            width: 30%;
+        }
+        .descripciones{
+            display:inline;
+        }
+        .cabecera{
+            justify-content: space-around;
+        }
+        .items-venta{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            max-width: 30%;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .productos-venta{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .navbar{
+            display:flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        .nav-bar-inf,
+        .nav-bar-inf ul{
+            display: flex;
+            justify-content: space-around;
+            margin : 0 10px
+        }
+        .nav-bar-inf li{
+            margin : 0 8px
+        }
+        .buscador{
+            display:flex
+        }
+        .create-form{
+            width: 40%;
+        }
+    }
+    @media (min-width: 1200px){
+        .navbar,
+        .nav-bar-inf{
+            max-width: 1200px;
+            margin:auto;
+        }
+        .items-venta{
+            max-width: 20%;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cabecera{
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .buscador{
+            margin:auto
+        }
+        .detalle-pagina{
+            align-self: right;
+            margin-right: 0;
+            margin-left: 15%
+        }
+    }
