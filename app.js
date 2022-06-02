@@ -15,6 +15,6 @@ app.get('/registro' , (req,res)=>{
     res.sendFile(path.join(__dirname, './views/registro.html'))
 });
 
-app.listen(3030, () => console.log("Servidor"));
+app.listen(process.env.PORT || 3030, () => console.log("Servidor"));
 
 app.use(express.static('public'));
